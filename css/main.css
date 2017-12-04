@@ -1,0 +1,214 @@
+
+body{
+    background-color: #0079BF;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;   
+    background-image: url(https://d78fikflryjgj.cloudfront.net/images/50b4ebc64391dc394a38e73aed57f0e2/header-logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    position: fixed;
+    background-color: #0067A3;
+    height: 64px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 9600px;
+    padding: 6px;
+}
+
+section {
+    display: inline-block;
+}
+
+span{
+    margin-right: 8px;
+}
+
+/*---generales/utilities---*/
+.d-inlineblock {
+    display: inline-block;
+}
+
+.d-none{
+    display: none;
+}
+
+.m-right5{
+    margin-right: 0.5em;
+}
+
+/* Barra de opciones  */
+
+.nombre-barra{
+    margin-top: 9px;
+    background-color: #569BC4;
+    padding: 4px 16px;
+    border-radius: 5px;
+    float: right;
+}
+
+.buscador{
+    margin-top: 6px;
+    background-color: #569BC4;
+    opacity: 12px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: none;
+    float: left;
+}
+
+.icono-plus{
+    margin-top: 9px;
+    background-color: #569BC4;
+    padding: 8px 8px;
+    border-radius: 5px;
+}
+
+.tableros-barra{
+    margin-top: 9px;
+    background-color: #569BC4;
+    padding: 4px 16px;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+}
+
+/* Trello Body */
+.trello-body{
+    padding: 8px;
+    margin: 8px;
+    width: 272px;
+    background-color: #E2E4E6;
+    vertical-align: top;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.agrandar{
+    height: 
+}
+
+.bg-blue{
+    background-color: #0067A3;
+}
+
+/*----------Contenedor--------------*/
+#contenedor1{
+    white-space: nowrap;
+    padding-top: 56px;
+
+}
+/*---formato de div para agregar---*/
+
+.lista {
+    width: 272px;
+    height: 48px;
+    margin: 9px 8px;
+    background-color: #0067A3;
+    padding: 9px;
+    color: white;
+    border-radius: 5px;
+}
+
+.nuevaLista{
+    width: 240px;
+    height: 48px;
+    margin: 9px 8px;
+    background-color: #E2E4E6;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.agregar {
+    width: 240px;
+    height: 48px;
+    margin: 9px 8px;
+    background-color: #E2E4E6;
+    padding: 9px;
+    border-radius: 5px;
+    color: gray;
+}
+
+.agregar:hover{
+    background-color: lightgray;
+}
+.text-tarjetas {
+    width: 240px;
+    height: 48px;
+    margin: 9px 8px;
+    background-color: white;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.receptor{
+    width: 240px;
+    height: 48px;
+    margin: 9px 8px;
+    background-color: gray;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.opacidad{
+    background-color: grey;
+    opacity: 0.5px;
+    cursor: pointer;
+}
+
+/*---Trellos body---*/
+
+.trello-body{
+    padding: 8px;
+    margin: 8px;
+    width: 272px;
+    background-color: #E2E4E6;
+    vertical-align: top;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+.bg-blue{
+    background-color: #0067A3;
+}
+
+/*---formulario---*/
+.formulario {
+    width: 272px;
+    height: auto;
+    margin: 9px 8px;
+    padding: 0.48px;
+    background-color: #E2E4E6;
+    border-radius: 5px;
+    display: none;
+}
+.entrada {
+    width: 94%;
+    margin: 0.48px 11px;
+    padding: 0.48px;
+    border-radius: 5px;
+    border: none;
+}
+
+.boton {
+    display: block;
+    padding: 8px 48px;
+    margin: 0.48px 11px;
+    background-color: #5BAE45;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.textarea{
+    width: 92%;
+    margin: 0.48px 11px;
+    padding: 0.48px;
+    border-radius: 5px;
+}

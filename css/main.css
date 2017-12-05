@@ -1,25 +1,26 @@
 
 body{
-    background-color: #0079BF;
+    background-color: white;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-header{
-    width: 100%;   
+header{  
     /* La background image es el logo de Trello en PNG */
     background-image: url(https://d78fikflryjgj.cloudfront.net/images/50b4ebc64391dc394a38e73aed57f0e2/header-logo.png);
-	background-repeat: no-repeat;
-	background-position: center;
-    position: fixed;
     background-color: #0067A3;
-    height: 64px;
-    text-align: center;
-    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+	color: white;
     font-size: 12px;
-    font-weight: 9600px;
+    height: 40px;
     padding: 6px;
+    text-align: center;
 }
+
+
 
 section {
     display: inline-block;
@@ -29,54 +30,57 @@ span{
     margin-right: 8px;
 }
 
-/*---generales/utilities---*/
-.d-inlineblock {
-    display: inline-block;
-}
-
 .d-none{
     display: none;
 }
 
 .m-right5{
-    margin-right: ;
+    margin-right: 8px;
 }
 
 /* Barra de opciones  */
 
-.nombre-barra{
-    margin-top: 9px;
-    background-color: #569BC4;
-    padding: 4px 16px;
-    border-radius: 5px;
-    float: right;
-}
-
 .buscador{
-    margin-top: 6px;
+    margin: 9px 9px;
     background-color: #569BC4;
-    opacity: 12px;
     padding: 4px 8px;
     border-radius: 5px;
     border: none;
     float: left;
 }
 
-.icono-plus{
-    margin-top: 9px;
+.icon{
     background-color: #569BC4;
+    height: 18px;
     padding: 8px 8px;
+    width: 18px;
     border-radius: 5px;
+    float: right;
+    margin-right: 7px;
 }
 
+.textos-barra{
+    background-color: #569BC4;
+    border-radius: 5px;
+    float: right;
+    margin-top: 9px;
+    padding: 4px 16px;
+}
+
+
 .tableros-barra{
+    /* 
+    float: left;
+    height: 30px;
+    width: 99px; */
+
     margin-top: 9px;
     background-color: #569BC4;
     padding: 4px 16px;
     border-radius: 5px;
-    display: inline-block;
     float: left;
 }
+
 
 /* Trello Body */
 
@@ -90,22 +94,7 @@ span{
     display: inline-block;
 }
 
-.agrandar{
-    height: 
-}
-
-.bg-blue{
-    background-color: #0067A3;
-}
-
-/*----------Contenedor--------------*/
-#contenedor1{
-    white-space: nowrap;
-    padding-top: 56px;
-
-}
 /*---formato de div para agregar---*/
-
 .lista {
     width: 272px;
     height: 48px;
@@ -129,7 +118,7 @@ span{
 .agregar {
     width: 240px;
     height: 48px;
-    margin: 9px 8px;
+    margin: 39px 42px;
     background-color: #E2E4E6;
     padding: 9px;
     border-radius: 5px;

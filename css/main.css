@@ -6,7 +6,7 @@ body{
     padding: 0;
 }
 
-header{  
+header{
     /* La background image es el logo de Trello en PNG */
     background-image: url(https://d78fikflryjgj.cloudfront.net/images/50b4ebc64391dc394a38e73aed57f0e2/header-logo.png);
     background-color: #0067A3;
@@ -201,4 +201,9 @@ span{
     margin: 7px 11px;
     padding: 7px;
     border-radius: 5px;
+}
+
+.formList{
+  background:#E2E4E6;
+  display: inline-block;
 }

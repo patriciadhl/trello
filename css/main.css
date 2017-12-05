@@ -1,4 +1,3 @@
-
 body{
     background-color: white;
     box-sizing: border-box;
@@ -69,16 +68,16 @@ span{
 
 
 .tableros-barra{
-    /* 
-    float: left;
+	float: left;
     height: 30px;
-    width: 99px; */
-
-    margin-top: 9px;
-    background-color: #569BC4;
-    padding: 4px 16px;
-    border-radius: 5px;
-    float: left;
+	margin-top: 9px;
+	background-color: #569BC4;
+	padding: 4px 16px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	width: 99px;
 }
 
 
